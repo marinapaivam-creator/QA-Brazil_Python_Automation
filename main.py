@@ -1,17 +1,51 @@
-# This is a sample Python script.
+import data
+class TestUrbanRoutes:
+    class TestUrbanRoutes:
+        @classmethod
+        def setup_class(cls):
+            if helpers.is_url_reachable(data.URBAN_ROUTES_URL):
+                print('Conectado ao servidor Urban Routes'),
+            else:
+                print('Não foi possível conectar ao Urban Routes. Verifique se o servidor está ligado e ainda em execução')
+    def test_set_route(self):
+        # Adicionar em S8
+        print("função criada para definir a rota")
+        pass
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+    def test_select_plan(self):
+        # Adicionar em S8
+        print("função criada para selecionar plano")
+        pass
 
+    def test_fill_phone_number(self):
+        # Adicionar em S8
+        print("função criada para selecionar plano")
+        pass
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    def test_fill_card(self):
+        # Adicionar em S8
+        print("função criada para selecionar plano")
+        pass
 
+    def test_comment_for_driver(self):
+        # Adicionar em S8
+        print("função criada para selecionar plano")
+        pass
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    def test_order_blanket_and_handkerchiefs(self):
+        # Adicionar em S8
+        print("função criada para selecionar plano")
+        pass
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def test_order_2_ice_creams(self):
+        # Adicionar em S8
+        for i in range (2):
+            print("função criada para selecionar plano")
+            pass
 
+    def test_car_search_model_appears(self):
+        # Adicionar em S8
+        print("função criada para selecionar plano")
+        pass
+
+import helpers
